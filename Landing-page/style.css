@@ -1,0 +1,73 @@
+.navbar{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    margin-right: 800px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid tomato;  
+}
+.nav-logo{
+    background-image: url("kachra.png");
+    height: 60px;
+    width: 60px;
+    background-size: cover;
+}
+header::before{
+    background: url('https://source.unsplash.com/collection/190727/1600x900') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    z-index: -1;
+    opacity: 0.3;
+    background-size: cover;
+}
+    h1{
+        font-style: italic;
+        margin-top: 150px;
+        display: flex;
+        justify-content: center;
+    }
+    h2{
+        font-style: oblique;
+        font-weight: bold;
+    }
+    .dis1{
+        font-size: 1.2rem;
+    }.dis2{
+        font-size: 1.2rem;
+    }.dis3{
+        font-size: 1.2rem;
+    }
+    .digiw{
+        width: fit-content;
+        height: fit-content;
+        border-radius: 4px;
+        font-size: 1.15rem;
+         border-radius: 4px;
+    }
+    .dis4{
+        font-size: 1.2rem;
+    }
+    .zz{
+        font-size: 1.35rem;
+        font-weight: bold;
+        color:brown;
+    }
+    .zzz{
+        display: flex;
+    }
+    .nav2{
+        display: flex;
+        margin-top: 20px;
+    }
+    .More
